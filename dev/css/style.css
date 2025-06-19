@@ -1,5 +1,14 @@
-.wrap{
-    max-width:750px;
-    margin:0 auto;
-    background: #000;
+body,
+.wrap,
+table {
+  margin: 0 auto;
+  max-width: 750px;
+  width: 100%;
+  font-family: "Noto Sans JP", "Meiryo", "Yu Gothic", Arial, sans-serif;
+}
+
+*:not(html, body) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
